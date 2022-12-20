@@ -4,8 +4,8 @@ const server  = express();
 const port    = 5600;
 
 
-server.use(express.json()); //allows parsing of json data
-server.use(express.urlencoded({extended: false})); //allows parsing of form data
+server.use(express.json()); 
+server.use(express.urlencoded({extended: false})); 
 
 
 
